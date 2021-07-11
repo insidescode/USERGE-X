@@ -227,7 +227,7 @@ class Bot_Alive:
     @staticmethod
     def alive_info() -> str:
         alive_info_ = f"""
-<a href="https://telegram.dog/x_xtests"><b>USERGE-X</a> is Up and Running.</b>
+<a href="https://t.me/Zer0ByteOfficial"><b>MASTERBYTE</a> is Up and Running.</b>
 
   🐍   <b>Python :</b>    <code>v{versions.__python_version__}</code>
   🔥   <b>Pyrogram :</b>    <code>v{versions.__pyro_version__}</code>
@@ -250,7 +250,7 @@ class Bot_Alive:
         buttons = [
             [
                 InlineKeyboardButton(text="🔧  SETTINGS", callback_data="settings_btn"),
-                InlineKeyboardButton(text="⚡  REPO", url=Config.UPSTREAM_REPO),
+                InlineKeyboardButton(text="⚡  REPO", url="https://t.me/deeprajk"),
             ]
         ]
         return InlineKeyboardMarkup(buttons)
