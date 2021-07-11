@@ -44,7 +44,7 @@ git+https://github.com/code-rgb/google-images-download.git
 feedparser>=6.0.2
 lyricsgenius
 imutils
-numpynumpy
+numpy
 opencv-python
 PyPDF2
 scikit-image
