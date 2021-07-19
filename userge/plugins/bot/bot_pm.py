@@ -183,7 +183,7 @@ if userge.has_bot:
 Hello 👋 {from_user.fname},
 Nice To Meet You !, I'm <b>{bot_.fname}</b> A Bot.
 
-        <b><i>Powered by</i> [USERGE-X](https://t.me/x_xtests)
+        <b><i>Powered by</i> [MASTERBYTE](https://t.me/Zer0ByteOfficial)
 
 My Master is : {owner_.flname}</b>
 """
@@ -197,7 +197,7 @@ My Master is : {owner_.flname}</b>
             btns = [
                 [
                     InlineKeyboardButton("👤  CONTACT", url=contact_url),
-                    InlineKeyboardButton("⭐️  REPO", url=Config.UPSTREAM_REPO),
+                    InlineKeyboardButton("⭐️  REPO", url="https://telegra.ph/file/003b5bbb226b417206fe9.jpg"),
                 ]
             ]
         try:
